@@ -1,0 +1,36 @@
+Diferença entre java e javascript
+Java é uma linguagem de programação para escrever aplicações para computadores e outros dispositivos
+JavaScript é uma linguagem de script usada para interagir com conteúdo num navegador web
+
+.ECMAScript 5.1 (2011): Padrão atual (destualizado)
+.ECMAScript 2015 (ES6): Padrão emergente (suporte deficiente); precisa de um transpilador como Babel para funcionar
+.ECMAScript 2016 (ES7): Em desenvolvimento; não tem nenhum suporte ainda
+
+jQuery -> librie de funções de JS
+Introduz sintaxe similar a CSS e várias melhorias de interface visual
+
+Angular, React, Vue.js -> front-end
+
+Node.js -> plataforma JS construida em ambientes de exe do navegador
+Utilizada para rodar operações avançadas e aplicações em servidores e computadores usando JS
+
+JS roda sem compilação de navegador
+
+var dia = new Date() -> define uma variavel como objeto Date()
+alert("Hoje é dia " + dia)
+
+
+document.body.innerHTML = "<h1> Hoje é dia " + dia + "</h1>;"  -> Insere uma linha h1 no documento ded hmtl
+
+
+document.body.innerHTML = "<h1> Hoje é " + dia.getDate() + "/" + dia.getMonth() + "/" + dia.getFullYear() + "</h1>";
+Formata a data que vai aparecer no h1
+
+async -> arquivo baixado junto com html e bloqueio após execução
+defer -> adia a execução do script
+
+Variáveis começam com letra minúscula
+Objetos e classes começam com letra maiúscula
+Constantes são todas em maiúsculas
+
+
